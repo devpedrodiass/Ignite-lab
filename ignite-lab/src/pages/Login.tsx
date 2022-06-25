@@ -4,6 +4,8 @@ import { useCreateSubscriberMutation } from "../graphql/generated";
 
 import Logo from "../icons/Logo";
 
+import imgBg from "../assets/img-bg.png";
+
 function Login() {
   const navigate = useNavigate();
   const [name, setName] = useState("");
@@ -83,7 +85,7 @@ function Login() {
           </form>
         </div>
       </div>
-      <img src="./src/assets/img-bg.png" alt="bg-img" className="mt-10" />
+      <img src={imgBg} alt="bg-img" className="mt-10" />
     </div>
   );
 }
