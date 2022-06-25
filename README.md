@@ -1,6 +1,16 @@
 # Ignite-Lab-Rocketseat
 Ignite Lab week from Rocketseat - React, GraphQL, CMS and much more
 
+Technologies:
+- Vite - React
+- Graph CMS
+- Vime
+- ClassNames
+- DateFNS
+- TailwindCSS
+- ApolloClient
+- Phosphor Icons
+
 Vercel link to test:ignite-lab-rocketseat-behjohcgo-fariapv.vercel.app
 
 Start Page:
