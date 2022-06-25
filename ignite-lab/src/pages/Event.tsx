@@ -15,7 +15,9 @@ function Event() {
           <Video lessonSlug={slug}></Video>
         ) : (
           <div className="flex-1 flex items-center justify-center">
-            Empty Video
+            <strong className="text-2xl animate-pulse ">
+              Oops! Select a video 😋
+            </strong>
           </div>
         )}
         <Sidebar></Sidebar>

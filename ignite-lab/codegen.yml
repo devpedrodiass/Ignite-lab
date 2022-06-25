@@ -1,0 +1,14 @@
+schema: https://api-us-west-2.graphcms.com/v2/cl4ojzh1h0hfs01w75v0c0bm7/master
+documents: "./src/graphql/**/*.graphql"
+generates:
+  ./src/graphql/generated.ts:
+    plugins:
+      - typescript
+      - typescript-operations
+      - typescript-react-apollo
+    config:
+      reactApolloVersion: 3
+      withHooks: true
+      withHOC: false
+      withComponents: false
+      fetcher: fetch
