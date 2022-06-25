@@ -73,7 +73,7 @@ function Login() {
             >
               {loading ? (
                 <img
-                  src="/src/assets/loading.svg"
+                  src="./src/assets/loading.svg"
                   className="animate-spin bg-transparent w-6 h-6"
                   alt=""
                 />
@@ -83,7 +83,7 @@ function Login() {
           </form>
         </div>
       </div>
-      <img src="/src/assets/img-bg.png" alt="bg-img" className="mt-10" />
+      <img src="./src/assets/img-bg.png" alt="bg-img" className="mt-10" />
     </div>
   );
 }
